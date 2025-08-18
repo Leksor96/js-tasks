@@ -1,9 +1,14 @@
 
 
 function getnumber(a ,b ) {
-    for (let c = 0; c < b ; ++c) {
-        console.log(a)
+
+    if (typeof a == "number" && typeof b == "number" ) {
+        for (let c = 0; c < b ; ++c) {
+            console.log(a);
+    }
+    }else {
+        console.log("Неверное значение");
     }
 }
 
-getnumber(2,9)
+getnumber(4,3);
