@@ -18,18 +18,18 @@ let calculator = {
 
     read (){
 
-        calculator.a = +prompt("Введите 1 число ", );
-        calculator.b = +prompt("Введите 2 число", ) ;
+        this.a = +prompt("Введите 1 число ", );
+        this.b = +prompt("Введите 2 число", ) ;
     },
 
     sum (){
 
-            return calculator.a + calculator.b;
+            return this.a + this.b;
     },
 
     mul() {
 
-            return calculator.a * calculator.b
+            return this.a * this.b
     },
 };
 
