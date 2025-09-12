@@ -1,5 +1,4 @@
 function truncate(str, maxlength) {
-    let finalstr
    if (str.length > maxlength) return str.slice(0, maxlength - 1) + "..."
     else return str
 }
